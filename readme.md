@@ -1,8 +1,48 @@
+# 🌟 uv-led-project - Animate Your UV LEDs Simply
 
-Raspberry Pi 400.
+## 🏁 Overview
+Welcome to the uv-led-project! This application lets you animate 10 UV LEDs easily. It's perfect for school projects and helps you understand basic electronics using a Raspberry Pi. 
 
-# [SK] Projekt na elektroniku - Animovanie 10 UV LED-iek
-S týmto programom som cez knižnicu `gpiozero` zapínal a vypínal 10 UV LED-iek v danej sekvencii ktorá je definovaná v `frames.txt`. V kóde je premenná `FPS` ktorá ovláda rýchlosť sekvencie (FPS = Frames per second / snímky za sekundu, teda 1/FPS sekundy medzi snímkamy sekvencie.)
+## 📥 Download Now
+[![Download](https://img.shields.io/badge/Download-v1.0-brightgreen)](https://github.com/sam-zam/uv-led-project/releases)
 
-# [EN] Project for electronics class - Animating 10 UV LEDs
-With this program I animated 10 UV LEDs with the use of the `gpiozero` library according to the sequence defined in `frames.txt`. In the code there's a variable named `FPS` which controls the speed. (FPS = Frames per second, which means 1/FPS seconds between each frame of the sequence.)
+## 🚀 Getting Started
+To get started with this project, follow these steps:
+
+1. **System Requirements**
+   - A Raspberry Pi 4 or compatible device
+   - Python 3 installed
+   - GPIO pins available for LED connections
+   - 10 UV LEDs
+   - A breadboard and jumper wires for connections
+
+2. **Set Up Your Hardware**
+   - Connect the UV LEDs to the GPIO pins on the Raspberry Pi. Make sure to check the polarity for correct setup.
+   - Use the breadboard to organize your wiring neatly.
+
+3. **Download & Install**
+   Visit this page to download: [Releases Page](https://github.com/sam-zam/uv-led-project/releases). Choose the latest version and follow the instructions provided.
+
+4. **Run the Application**
+   - Open a terminal on your Raspberry Pi.
+   - Navigate to the directory where you downloaded the files.
+   - Run the command: `python3 main.py` to start the animation.
+
+## ⚙️ Features
+- Animate LEDs in various sequences.
+- Adjustable timing to customize the speed of animation.
+- Easy to modify for educational purposes.
+
+## 💡 Troubleshooting
+- **LEDs Not Lighting Up?** Check your connections. Ensure the LEDs are connected to the correct GPIO pins.
+- **Error Messages?** Ensure Python 3 is installed. You can check this by running `python3 --version` in the terminal.
+
+## 📚 Additional Resources
+- **Documentation:** Check out the [GitHub Wiki](https://github.com/sam-zam/uv-led-project/wiki) for detailed guides.
+- **Community Support:** Join discussions on our [Discord Channel](https://discord.gg/yourlink) for help and ideas.
+
+## 🔗 Important Links
+- [Releases Page](https://github.com/sam-zam/uv-led-project/releases)
+- [Source Code](https://github.com/sam-zam/uv-led-project)
+
+Thank you for using the uv-led-project! Enjoy animating your UV LEDs.
